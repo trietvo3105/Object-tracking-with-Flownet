@@ -2,7 +2,7 @@
 
 This project aims to employ optical flow based algorithms to perform object tracking task. The dataset consists of many sequences. Each sequence presents one moving object that is needed to be tracked, and its corresponded masks as the ground truth.
 
-We benmark 3 approaches: Flowner, Deepflow, and Farneback.
+We benchmark 3 approaches: Flowner, Deepflow, and Farneback.
 
 ## 1. Flownet
 
