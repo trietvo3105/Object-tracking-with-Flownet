@@ -1,6 +1,6 @@
 # Object-tracking-with-Flownet
 
-This project aims to employ optical flow based algorithm to perform object tracking task. The dataset consists of many sequences. Each sequence presents one moving object that is needed to be tracked, and its corresponded masks as the ground truth.
+This project aims to employ optical flow based algorithms to perform object tracking task. The dataset consists of many sequences. Each sequence presents one moving object that is needed to be tracked, and its corresponded masks as the ground truth.
 
 We benmark 3 approaches: Flowner, Deepflow, and Farneback.
 
