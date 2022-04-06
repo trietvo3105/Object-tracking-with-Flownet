@@ -6,7 +6,7 @@ We benchmark 3 approaches: Flowner, Deepflow, and Farneback.
 
 ## 1. Flownet
 
-Flownet is a deep learning based approach presented in the paper: [flownet](https://lmb.informatik.uni-freiburg.de/Publications/2015/DFIB15/)
+Flownet is a deep learning based approach presented in the paper: [FlowNet: Learning Optical Flow with Convolutional Networks](https://lmb.informatik.uni-freiburg.de/Publications/2015/DFIB15/)
 We adopt a pre-trained flownetS into our project for object tracking. The pre-trained weight can be download at: [weight](https://drive.google.com/drive/folders/16eo3p9dO_vmssxRoZCmWkTpNjKRzJzn5). This model is trained on FlyingChair dataset, which contains a huge number of synthesized images (64GB). 
 In terms of implementation, we reuse the implementation of [ClementPinard](https://github.com/ClementPinard/FlowNetPytorch)
 
