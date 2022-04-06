@@ -23,7 +23,16 @@ We adopt a pre-trained FlowNetS into our project for object tracking. The pre-tr
 
 In terms of implementation, we reuse the implementation of [@ClementPinard](https://github.com/ClementPinard/FlowNetPytorch).
 
-Since we do not retrain again on our dataset, several pre-processing techniques, including Gaussian blurring, Detail enhancing, Edge preserving and Pencil sketching are employed to increase the accuracy of the tracking.
+### Input processing
+
+Since we do not retrain again on our dataset, several pre-processing techniques, including Gaussian blurring, Detail enhancing, Edge preserving and Pencil sketching are employed to increase the accuracy of the tracking. The effect of each pre-processing on the input image is shown below:
+![preprocessed_inputs](images/flownet_preprocessing.png)
+
+### Results
+
+The tracking results based on the optical flow estimated by FlowNetS on pre-processed as well as original inputs are demonstrated in the following figure:
+![preprocessed_input_results_on_swan_sequence](images/flownet_preprocessing1.png)
+![preprocessed_input_results_on_swan_sequence](images/flownet_preprocessing2.png)
 
 ## 2. Deepflow
 
