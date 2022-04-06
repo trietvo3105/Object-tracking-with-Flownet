@@ -31,9 +31,9 @@ Since we do not retrain again on our dataset, several pre-processing techniques,
 ### Results
 
 The tracking results based on the optical flow estimated by FlowNetS on pre-processed as well as original inputs are demonstrated in the following figure:
-![preprocessed_input_results_on_swan_sequence](images/flownet_preprocessing1.png)
+![preprocessed_input_results_on_swan_sequence](images/flownet_preprocessing_1.png)
 
-![preprocessed_input_results_on_swan_sequence](images/flownet_preprocessing2.png)
+![preprocessed_input_results_on_swan_sequence](images/flownet_preprocessing_2.png)
 
 ## 2. Deepflow
 
