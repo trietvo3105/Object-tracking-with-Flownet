@@ -58,3 +58,54 @@ At the end of this project, a challenge between the different approaches (beside
 At the end, our group with our optical flow approaches placed **3rd** in the challenge. The figure below shows our quantitative results for these 3 sequences, we use direct Deepflow for 2 sequences cow and octopus, and sequential Farneback for the fish.
 
 ![challenge](images/metrics_challenge.png)
+
+
+### Citations
+```
+@article{DBLP:journals/corr/FischerDIHHGSCB15,
+          author    = {Philipp Fischer and
+                       Alexey Dosovitskiy and
+                       Eddy Ilg and
+                       Philip H{\"{a}}usser and
+                       Caner Hazirbas and
+                       Vladimir Golkov and
+                       Patrick van der Smagt and
+                       Daniel Cremers and
+                       Thomas Brox},
+          title     = {FlowNet: Learning Optical Flow with Convolutional Networks},
+          journal   = {CoRR},
+          volume    = {abs/1504.06852},
+          year      = {2015},
+          url       = {http://arxiv.org/abs/1504.06852},
+          eprinttype = {arXiv},
+          eprint    = {1504.06852},
+          timestamp = {Mon, 13 Aug 2018 16:49:12 +0200},
+          biburl    = {https://dblp.org/rec/journals/corr/FischerDIHHGSCB15.bib},
+          bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@INPROCEEDINGS{6751282,
+          author={Weinzaepfel, Philippe and Revaud, Jerome and Harchaoui, Zaid and Schmid, Cordelia},
+          booktitle={2013 IEEE International Conference on Computer Vision}, 
+          title={DeepFlow: Large Displacement Optical Flow with Deep Matching}, 
+          year={2013},
+          volume={},
+          number={},
+          pages={1385-1392},
+          doi={10.1109/ICCV.2013.175}
+}
+
+@InProceedings{10.1007/3-540-45103-X_50,
+        author="Farneb{\"a}ck, Gunnar",
+        editor="Bigun, Josef
+        and Gustavsson, Tomas",
+        title="Two-Frame Motion Estimation Based on Polynomial Expansion",
+        booktitle="Image Analysis",
+        year="2003",
+        publisher="Springer Berlin Heidelberg",
+        address="Berlin, Heidelberg",
+        pages="363--370",
+        abstract="This paper presents a novel two-frame motion estimation algorithm. The first step is to approximate each neighborhood of both frames by quadratic polynomials, which can be done efficiently using the polynomial expansion transform. From observing how an exact polynomial transforms under translation a method to estimate displacement fields from the polynomial expansion coefficients is derived and after a series of refinements leads to a robust algorithm. Evaluation on the Yosemite sequence shows good results.",
+        isbn="978-3-540-45103-7"
+}
+```
