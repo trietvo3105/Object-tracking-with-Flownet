@@ -17,7 +17,7 @@ For optical flow estimation, we benchmark 3 approaches: **FlowNet**, **Deepflow*
 
 ## 1. Flownet
 
-Flownet is a deep learning based approach presented in the paper: [FlowNet: Learning Optical Flow with Convolutional Networks](https://lmb.informatik.uni-freiburg.de/Publications/2015/DFIB15/).
+Flownet is a deep learning based approach presented in the paper: [FlowNet: Learning Optical Flow with Convolutional Networks](https://ieeexplore.ieee.org/document/7410673).
 
 We adopt a pre-trained FlowNetS into our project for object tracking. The pre-trained weight can be download at: [weight](https://drive.google.com/drive/folders/16eo3p9dO_vmssxRoZCmWkTpNjKRzJzn5). This model is trained on FlyingChair dataset, which contains a huge number of synthesized images (64GB). 
 
@@ -40,7 +40,7 @@ The results are assessed by 3 metrics including **Dice score**, **F-measure scor
 
 ## 2. DeepFlow
 
-Unlike FlowNet and similar to Farneback, DeepFlow is a learning-free optical flow estimation algorithm that aims to handle large displacement problem. It was presented in the paper: [DeepFlow](https://hal.inria.fr/hal-00873592/document).
+Unlike FlowNet and similar to Farneback, DeepFlow is a learning-free optical flow estimation algorithm that aims to handle large displacement problem. It was presented in the paper: [DeepFlow](https://ieeexplore.ieee.org/document/6751282).
 
 The main idea is to introduce another term called matching term beside two original terms in traditional optical flow estimation: data term and flow smoothing term.
 The matching term benefits from the keypoint matching algorithm. Briefly, the traditional Horn-Schunk optical flow estimation relies on two main hypothese: brightness constancy and small motion.
@@ -62,26 +62,15 @@ At the end, our group with our optical flow approaches placed **3rd** in the cha
 
 ### Citations
 ```
-@article{DBLP:journals/corr/FischerDIHHGSCB15,
-          author    = {Philipp Fischer and
-                       Alexey Dosovitskiy and
-                       Eddy Ilg and
-                       Philip H{\"{a}}usser and
-                       Caner Hazirbas and
-                       Vladimir Golkov and
-                       Patrick van der Smagt and
-                       Daniel Cremers and
-                       Thomas Brox},
-          title     = {FlowNet: Learning Optical Flow with Convolutional Networks},
-          journal   = {CoRR},
-          volume    = {abs/1504.06852},
-          year      = {2015},
-          url       = {http://arxiv.org/abs/1504.06852},
-          eprinttype = {arXiv},
-          eprint    = {1504.06852},
-          timestamp = {Mon, 13 Aug 2018 16:49:12 +0200},
-          biburl    = {https://dblp.org/rec/journals/corr/FischerDIHHGSCB15.bib},
-          bibsource = {dblp computer science bibliography, https://dblp.org}
+@INPROCEEDINGS{7410673,
+          author={Dosovitskiy, Alexey and Fischer, Philipp and Ilg, Eddy and Häusser, Philip and Hazirbas, Caner and Golkov, Vladimir and Smagt, Patrick van der and Cremers, Daniel and Brox, Thomas},
+          booktitle={2015 IEEE International Conference on Computer Vision (ICCV)}, 
+          title={FlowNet: Learning Optical Flow with Convolutional Networks}, 
+          year={2015},
+          volume={},
+          number={},
+          pages={2758-2766},
+          doi={10.1109/ICCV.2015.316}
 }
 
 @INPROCEEDINGS{6751282,
