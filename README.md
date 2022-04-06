@@ -9,10 +9,11 @@ Then, the pipeline to track an object is composed of:
 
 1. Load the mask of the reference frame (usually the first frame in the sequence)
 2. Computing the optical flow between
-    - the current frame t and the reference frame $t_1$ (in direct integration), or 
-    - the current frame and the reference frame then concatenate the computed flow to 
+    - the current frame *t* and the reference frame (in direct integration), or 
+    - the current frame *t* and the previous frame *t-1* then concatenate the computed flow to the previously integrated flow between frame *t-1* and reference frame (in sequential integration)
+3. The mask of the current frame is the mask of the reference frame propagated to the current frame via the estimated flow between it and the reference frame.
 
-We benchmark 3 approaches for optical flow estimation: FlowNet, Deepflow, and Farneback.
+For optical flow estimation, we benchmark 3 approaches: FlowNet, Deepflow, and Farneback.
 
 ## 1. Flownet
 
