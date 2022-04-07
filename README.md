@@ -1,4 +1,4 @@
-# Object-tracking-with-Flownet
+# Object-tracking-with-FlowNet
 
 This project aims to employ optical flow based algorithms to perform object tracking task. The dataset consists of 9 sequences. Each sequence presents one moving object that is needed to be tracked, and its corresponded masks as the ground truth. 
 
@@ -15,7 +15,7 @@ Then, the pipeline to track an object is composed of:
 
 For optical flow estimation, we benchmark 3 approaches: **FlowNet**, **Deepflow**, and **Farneback**. For all of them, the inputs are 2 consecutive frames and the output is a flow (for FlowNet the output is infered by the network then saved under numpy matrix format).
 
-## 1. Flownet
+## 1. FlowNet
 
 Flownet is a deep learning based approach presented in the paper: [FlowNet: Learning Optical Flow with Convolutional Networks](https://ieeexplore.ieee.org/document/7410673).
 
