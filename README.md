@@ -1,4 +1,4 @@
-# Object-tracking-with-FlowNet
+# Object tracking by optical flow with FlowNet
 
 This project aims to employ optical flow based algorithms to perform object tracking task. The dataset consists of 9 sequences. Each sequence presents one moving object that is needed to be tracked, and its corresponded masks as the ground truth. 
 
