@@ -21,7 +21,7 @@ Flownet is a deep learning based approach presented in the paper: [FlowNet: Lear
 
 We adopt a pre-trained FlowNetS into our project for object tracking. The pre-trained weight can be download at: [weight](https://drive.google.com/drive/folders/16eo3p9dO_vmssxRoZCmWkTpNjKRzJzn5). This model is trained on FlyingChair dataset, which contains a huge number of synthesized images (64GB). 
 
-In terms of implementation, we reuse the implementation of [@ClementPinard](https://github.com/ClementPinard/FlowNetPytorch).
+In terms of implementation, thanks to [@ClementPinard](https://github.com/ClementPinard), we reuse his concrete and precise Pytorch implementation, which can be found [here](https://github.com/ClementPinard/FlowNetPytorch).
 
 ### Input processing
 
